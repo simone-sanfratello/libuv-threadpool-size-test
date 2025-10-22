@@ -1,0 +1,28 @@
+{
+  "name": "libuv-thread-size",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "benchmark:file": "node run-file-benchmarks.js",
+    "benchmark:file:default": "node benchmark-file-default.js",
+    "benchmark:file:double": "node benchmark-file-double.js",
+    "benchmark:file:optimal": "node benchmark-file-optimal.js",
+    "benchmark:crypto": "node run-crypto-benchmarks.js",
+    "benchmark:crypto:default": "node benchmark-crypto-default.js",
+    "benchmark:crypto:double": "node benchmark-crypto-double.js",
+    "benchmark:crypto:optimal": "node benchmark-crypto-optimal.js",
+    "benchmark:zlib": "node run-zlib-benchmarks.js",
+    "benchmark:zlib:default": "node benchmark-zlib-default.js",
+    "benchmark:zlib:double": "node benchmark-zlib-double.js",
+    "benchmark:zlib:optimal": "node benchmark-zlib-optimal.js",
+    "benchmark:dns": "node run-dns-benchmarks.js",
+    "benchmark:dns:default": "node benchmark-dns-default.js",
+    "benchmark:dns:double": "node benchmark-dns-double.js",
+    "benchmark:dns:optimal": "node benchmark-dns-optimal.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
